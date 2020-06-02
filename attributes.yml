@@ -1,0 +1,5 @@
+plan_name : "gmp"
+plan_dirs :
+    - "include"
+    - "share"
+    - "lib"
