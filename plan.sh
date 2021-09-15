@@ -1,6 +1,6 @@
 pkg_name=gmp
 pkg_origin=core
-pkg_version=6.1.2
+pkg_version=6.2.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 GMP is a free library for arbitrary precision arithmetic, operating on signed \
@@ -9,7 +9,7 @@ integers, rational numbers, and floating-point numbers.\
 pkg_upstream_url="https://gmplib.org"
 pkg_license=('GPL-3.0-or-later')
 pkg_source="http://ftp.gnu.org/gnu/$pkg_name/${pkg_name}-${pkg_version}.tar.xz"
-pkg_shasum="87b565e89a9a684fe4ebeeddb8399dce2599f9c9049854ca8c0dfbdea0e21912"
+pkg_shasum="fd4829912cddd12f84181c3451cc752be224643e87fac497b69edddadc49b4f2"
 pkg_deps=(
   core/glibc
 )
